@@ -1,0 +1,12 @@
+Debug/
+Release/
+x64/
+x86/
+
+.vs/
+*.user
+
+*.obj
+*.exe
+*.dll
+*.pdb
