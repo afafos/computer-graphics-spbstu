@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\imgui">
+      <UniqueIdentifier>{557acd86-9e7e-4354-8ce2-032886d4616c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\imgui">
+      <UniqueIdentifier>{e87a6e2b-a19f-4dd2-845f-4d1ab21ca138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cube">
+      <UniqueIdentifier>{4061771e-1f15-4354-b019-33d184302248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{71260c6f-40ca-4404-a28f-6a80df728e61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light">
+      <UniqueIdentifier>{4df544bf-5058-40e9-975c-f9128af5915b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plane">
+      <UniqueIdentifier>{e0de07df-6744-4110-a761-2ac2b185434c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{488560f9-fce0-43bf-b969-19e83e8dcb55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skybox">
+      <UniqueIdentifier>{29498709-0a8d-4af1-97fc-80ebdf1061dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{904bb8dd-8d94-4523-b2bf-64d30f6b7ce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{bb58fe62-6dd2-4c63-9466-7841d0b10a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Postprocessing">
+      <UniqueIdentifier>{1e935b61-c7b8-4cfa-8928-a3ee63b3145c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderTexture">
+      <UniqueIdentifier>{b6f08d9a-36d2-4737-89ef-de2c7ab654a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="lab.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="structures.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Consts.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Файлы заголовков\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Файлы заголовков\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Файлы заголовков\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Файлы заголовков\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Файлы заголовков\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Файлы заголовков\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>Файлы заголовков\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>Файлы заголовков\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="cube.h">
+      <Filter>Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>Light</Filter>
+    </ClInclude>
+    <ClInclude Include="plane.h">
+      <Filter>Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="skybox.h">
+      <Filter>Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="postprocessing.h">
+      <Filter>Postprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="renderTexture.h">
+      <Filter>RenderTexture</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="cube.cpp">
+      <Filter>Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>Light</Filter>
+    </ClCompile>
+    <ClCompile Include="plane.cpp">
+      <Filter>Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="skybox.cpp">
+      <Filter>Skybox</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="postprocessing.cpp">
+      <Filter>Postprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="renderTexture.cpp">
+      <Filter>RenderTexture</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="lab8.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="lab.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="texture_norm.dds" />
+    <CopyFileToFolders Include="skybox.dds" />
+    <CopyFileToFolders Include="cat.dds" />
+    <CopyFileToFolders Include="CalculateColor.hlsli" />
+    <CopyFileToFolders Include="CubeCB.hlsli" />
+    <CopyFileToFolders Include="LightBuffers.hlsli" />
+    <CopyFileToFolders Include="LightCB.hlsli" />
+    <CopyFileToFolders Include="LightPixelShader.hlsl" />
+    <CopyFileToFolders Include="LightVertexShader.hlsl" />
+    <CopyFileToFolders Include="PixelShader.hlsl" />
+    <CopyFileToFolders Include="PostprocessingPixelShader.hlsl" />
+    <CopyFileToFolders Include="PostprocessingVertexShader.hlsl" />
+    <CopyFileToFolders Include="SceneCB.hlsli" />
+    <CopyFileToFolders Include="SkyboxPixelShader.hlsl" />
+    <CopyFileToFolders Include="SkyboxVertexShader.hlsl" />
+    <CopyFileToFolders Include="TransparentCB.hlsli" />
+    <CopyFileToFolders Include="TransparentPixelShader.hlsl" />
+    <CopyFileToFolders Include="TransparentVertexShader.hlsl" />
+    <CopyFileToFolders Include="VertexShader.hlsl" />
+  </ItemGroup>
+</Project>
